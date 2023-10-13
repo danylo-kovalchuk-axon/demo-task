@@ -59,6 +59,6 @@ db.createUser(
 
 ```
 mongo
-use admin
+use crypto_bot
 db.auth("crypto-bot-db-user", "change_me")
 ```
