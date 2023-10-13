@@ -3,8 +3,8 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: change_me
-      username: change_me
+      database: crypto_bot
+      username: crypto-bot-db-user
       password: change_me
 
 demo:
