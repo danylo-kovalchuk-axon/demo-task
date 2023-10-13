@@ -2,10 +2,10 @@
 The bot allows to notify about the cryptocurrency price change.
 
 ## Configuration
-First of all, the bot requires mongodb to work. The startup guide is present in [here](provisioning/mongodb).
 Configuration file is located [here](src/main/resources/application.yml).
 
 ### Database configuration
+First of all, the bot requires mongodb to work. The startup guide is present in [here](provisioning/mongodb).
 Names of properties speak for themselves:
 - spring.data.mongodb.host: change to ip address of you database server
 - spring.data.mongodb.port: change to port of your database server
