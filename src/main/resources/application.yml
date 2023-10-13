@@ -1,0 +1,22 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: change_me
+      username: change_me
+      password: change_me
+
+demo:
+  delay-seconds: 5
+  percent-to-notify: 25
+  bot:
+    token: change_me
+    username: change_me
+    max-users: 5
+
+logging-level: DEBUG
+logging:
+  level:
+    com:
+      demo: ${logging-level}
