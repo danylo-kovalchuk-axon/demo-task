@@ -20,3 +20,8 @@ The application has various properties to configure how it will execute:
 - demo.bot.token: this property is the token of bot you receive when register your bot using `BotFather` in Telegram.
 - demo.bot.username: this property is unique username of bot you receive when register your bot using `BotFather` in Telegram.
 - demo.bot.max-users: this property defines the maximum amount of users allowed to simultaneously use bot
+
+## How to use bot?
+1. Login/Register in Telegram.
+2. Find bot in telegram by link provided after registration of it.
+3. Available commands are `/start`, `/stop`, `/restart`. If another text input was given - the list of them with brief description will be given.
